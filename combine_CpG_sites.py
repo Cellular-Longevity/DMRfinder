@@ -54,9 +54,9 @@ def openRead(filename):
     return sys.stdin
   try:
     if filename[-3:] == '.gz':
-      f = gzip.open(filename, 'rb')
+      f = gzip.open(filename, 'rt')
     else:
-      f = open(filename, 'rU')
+      f = open(filename, 'r')
   except IOError:
     sys.stderr.write('Error! Cannot read input file %s\n' % filename)
     sys.exit(-1)
