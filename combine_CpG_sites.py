@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # John M. Gaspar (jsh58@wildcats.unh.edu)
 # Dec. 2016

@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env Rscript
 
 # John M. Gaspar (jsh58@wildcats.unh.edu)
 # Dec. 2016
